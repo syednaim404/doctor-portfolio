@@ -4,9 +4,12 @@
    margin: 0;
    font-family: sans-serif;
 }
+body{
+   background-color: #ECF0F3;
+}
 /* navbar section */
 .navbar {
-   background-color: #dfe9f1 !important;
+   background-color: #ECF0F3;
 
    padding: 25px 0;
 }
@@ -62,9 +65,38 @@
    transform: scale(1.05);
    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
+/* special facilities section */
+.facilities .icon-box {
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: #E2E8EC;
+}
+.facilities .card {
+   background-color: #EEF1F4;
+   border: none;
+   border-radius: 10px;
+}
+.facilities .fa-solid {
+   color: #ff014f;
+   font-size: 40px;
+}
+.facilities .card .card-title{
+   font-size: 22px;
+   font-weight: 700;
+   color: #000;
+}
+.facilities .card .card-text {
+   color: #3c3e41;
+}
+
+
+
+
+
 /* footer section */
 .footer-top {
-   background-color: #ecf0f3;
+   background-color: #ECF0F3;
 }
 .footer-top .footer-icon {
    width: 32px;
@@ -94,7 +126,7 @@
    text-decoration: underline;
 }
 .footer-bottom {
-   background-color: #ecf0f3;
+   background-color: #ECF0F3;
    font-size: 17px;
    color: #3c3e41;
 }
