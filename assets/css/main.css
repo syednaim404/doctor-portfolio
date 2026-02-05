@@ -66,6 +66,17 @@ body{
    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 /* special facilities section */
+.title {
+   color: #ff014f;
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+.heading {
+   font-size: 50px;
+   color: #3c3e41;
+   font-weight: 700;
+
+}
 .facilities .icon-box {
    width: 70px;
    height: 70px;
@@ -141,6 +152,12 @@ body{
    .hero-section .hero-title,
    .typewrite {
       font-size: 30px;
+   }
+   .heading {
+   font-size: 30px;
+   }
+   .button{
+      padding: 10px 10px;
    }
 }
 @media (min-width: 576px) {
